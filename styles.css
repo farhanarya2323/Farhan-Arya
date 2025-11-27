@@ -1,0 +1,81 @@
+/* BASIC RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0e0f1a;
+    color: #fff;
+    line-height: 1.6;
+    padding-bottom: 50px;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 30px 0;
+    background: #1a1c2c;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #4effa1;
+}
+
+/* SECTIONS */
+section {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    border-left: 5px solid #4effa1;
+    padding-left: 10px;
+}
+
+/* PROJECTS */
+.project-card {
+    background: #151726;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #262837;
+}
+
+/* CONTACT FORM */
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+}
+
+button {
+    background: #4effa1;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+button:hover {
+    background: #34c97c;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1a1c2c;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
