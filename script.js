@@ -14,7 +14,7 @@ async function askAI() {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
-            "Authorization": "01d7613197d677acec0bd3ebaa9509fc"
+            "Authorization": "Bearer 01d7613197d677acec0bd3ebaa9509fc"
         },
         body: JSON.stringify({
             model: "gpt-4o-mini",
@@ -26,3 +26,4 @@ async function askAI() {
 
     resBox.innerHTML = "<p>" + data.choices[0].message.content + "</p>";
 }
+
